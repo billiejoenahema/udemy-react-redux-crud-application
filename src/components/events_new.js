@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import { connect } from 'react-redux';
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
 import { Field, reduxForm } from 'redux-form'
 import { Link } from 'react-router-dom'
 
@@ -11,12 +11,12 @@ class EventsNew extends Component {
     this.onSubmit = this.onSubmit.bind(this)
   }
   renderField(field) {
-    const {input, label, type, meta: {touched, error}} = field
+    const { input, label, type, meta: { touched, error } } = field
 
     return (
       <div>
         <input {...input} placeholder={label} type={type} />
-    {touched && error && <span>{error}</span>}
+        {touched && error && <span>{error}</span>}
 
       </div>
     )
@@ -30,7 +30,7 @@ class EventsNew extends Component {
   render() {
     const { handleSubmit, pristine, submitting, invalid } = this.props
     console.log(submitting)
-    
+
     return (
       <form onSubmit={handleSubmit(this.onSubmit)}>
         <div>
@@ -44,8 +44,8 @@ class EventsNew extends Component {
           <Link to="/">Cancel</Link>
         </div>
       </form>
-    );
-  };
+    )
+  }
 }
 
 const validate = values => {

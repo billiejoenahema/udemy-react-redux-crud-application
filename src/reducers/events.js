@@ -18,7 +18,7 @@ export default (events = {}, action) => {
       return _.mapKeys(action.response.data, 'id')
     case DELETE_EVENT:
       delete events[action.id]
-      return {...events}
+      return { ...events }
     default:
       return events
   }
