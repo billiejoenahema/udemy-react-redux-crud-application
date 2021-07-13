@@ -4,7 +4,7 @@ import {
   READ_EVENTS,
   READ_EVENT,
   UPDATE_EVENT,
-  DELETE_EVENT,q
+  DELETE_EVENT,
 } from '../actions'
 
 export default (events = {}, action) => {
