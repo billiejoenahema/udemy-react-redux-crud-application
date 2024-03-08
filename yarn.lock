@@ -6597,10 +6597,10 @@ material-ui@^0.20.2:
     simple-assign "^0.1.0"
     warning "^3.0.0"
 
-material@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/material/-/material-0.4.3.tgz#312d087fadf08210bd79dd3c36d0e0d51384d82d"
-  integrity sha512-uZM0D1V6rNNuiKsKKEY+Tf+2i+9FDcl1+eW10Wlta34ILPW3IiLqEZTLNHzq7bVkQFQBMvG8rLl0gmdmwyknkw==
+material@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/material/-/material-0.9.0.tgz#dc85fa44c7138c6d3a02e34db53d543b15e10a3f"
+  integrity sha512-yTOJJJglF6MmtGJesuPNrBLXWEZsroOG9Fbm5YBmzkC5n1E9A3zc5hgI49KqA3t+ZM7XcGDZvXCVdWMKV04bKw==
 
 md5.js@^1.3.4:
   version "1.3.5"
